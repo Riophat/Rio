@@ -1,0 +1,14 @@
+user_name = "Thiên Phát"
+age = 20
+live_in_Sông_Ray = True
+is_a_student = True
+have_a_crush_on_chị_Nghi = True
+is_trying_to_master_python = True
+print("my name is:", user_name)
+print("i'm at the age of:", age)
+print("i live in Song Ray.")
+print("confirm:", live_in_Sông_Ray);
+print("and,", "i'm a student:", is_a_student)
+print("i have a strong crush on chị Nghi:", have_a_crush_on_chị_Nghi)
+print("so,i'm trying my best to master python", "confirm:", is_trying_to_master_python)
+print("so one day i'll marry her!")
