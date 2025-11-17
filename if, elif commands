@@ -1,0 +1,18 @@
+attitude = ("boring")
+if "lazy" in attitude or "indolent" in attitude or "boring" in attitude:
+    print("weak mindset")
+elif any(t in attitude for t in ("industrious", "hard working", "work hard")):
+    print("strong mindset")
+grade = 49.99999
+if 80 <= grade < 90:
+    print("nice")
+elif 90 <= grade < 100:
+    print("remarkable")
+elif grade == 100:
+    print("excellent")
+elif 70 <= grade < 80:
+    print("over normal, under good")
+elif 50 <= grade < 70:
+    print("normal")
+else:
+    print("useless")
