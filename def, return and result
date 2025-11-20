@@ -1,0 +1,9 @@
+def assessing_mindset(mindset):
+    if any(t in mindset for t in("rich people are genius","working hard creates rich people")):
+        return "undefined mindset, no one thinks this way"
+    elif any(t in mindset for t in ("rich people are genius", "rich people are borned that way")):
+        return "narrow mindset"
+    elif any(t in mindset for t in ("working hard creates rich people", "combination between hard working and borned is real")):
+        return "growth mindset"
+result = assessing_mindset(("working hard creates rich people","rich people are genius"))
+print(result)
