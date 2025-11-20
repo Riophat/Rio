@@ -1,0 +1,17 @@
+def assessing_mindset(mindset):
+    try:
+        if any(t in mindset for t in ("affluent is borned", "work hard to become affluent")):
+            return "undefined mindset, no one thinks this way"
+        elif any(t in mindset for t in ("rich people are genius", "rich people are borned that way")):
+            return "narrow mindset"
+        elif any(t in mindset for t in ("working hard creates rich people", "combination between hard work and intelligence creates rich people")):
+            return "growth mindset"
+        else:
+            return "mindset not recognized"
+    except TypeError:
+        return "Invalid input type. Please provide a string."
+print(assessing_mindset("affluent is borned"))
+print(assessing_mindset("rich people are genius"))
+print(assessing_mindset("working hard creates rich people"))
+print(assessing_mindset(1193210910391231233131))
+print(assessing_mindset(9+10))
