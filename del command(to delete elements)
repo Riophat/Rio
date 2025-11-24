@@ -1,0 +1,6 @@
+study_and_work_in_count = ["IELTS","Python","type quickly","gymming","class subjects"]
+del study_and_work_in_count [4]
+del study_and_work_in_count [2]
+del study_and_work_in_count [1]
+del study_and_work_in_count [0]
+print(study_and_work_in_count)
