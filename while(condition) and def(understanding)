@@ -1,0 +1,8 @@
+def numbers_use(limit):
+    numbers = 1
+    while numbers <= limit:
+        print(numbers)
+        numbers +=1
+numbers_use(5)
+print("one more,let's try 15")
+numbers_use(15)
