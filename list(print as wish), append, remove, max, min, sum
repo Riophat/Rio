@@ -1,0 +1,12 @@
+people = [1, 5, 7, 'hello', 7.11, 'goodbye']
+print(people[:5])
+print(people[3:])
+print(people[::2])
+print(people[2:5])
+print("next:")
+numbers = [15, 8, 42, 3,]
+numbers.append(70)
+numbers.remove(3)
+print(max(numbers))
+print(min(numbers))
+print(sum(numbers))
