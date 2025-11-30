@@ -8,3 +8,15 @@ def assessing_mindset(*mindset):
 print(assessing_mindset("affluent is borned","work hard to become affluent"))
 print(assessing_mindset("rich people are genius"))
 print(assessing_mindset("working hard creates rich people"))
+print('-:gappppppppppppppppppppppppppppp:-')
+def checking_numbers(numbers):
+    if numbers in(6, 8, 10, 12, 50):
+        return '2x numbers'
+    elif numbers in(1, 5, 9, 19, 99):
+        return '+ numbers'
+    else:
+        return 'underfined numbers'
+print(checking_numbers(11))
+print(checking_numbers(99))
+print(checking_numbers(7))
+print(checking_numbers(1))
