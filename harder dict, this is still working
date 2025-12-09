@@ -1,0 +1,20 @@
+good_life_habits_students ={
+    "phát": {"work out": "gym", "age": 16, "target": "tesla future"},
+    "Tâm": {"work out": "push up", "age": 16, "target": "drum professional"},
+    "Hậu": {"work out": "mix between pull up and push up", "age": 16, "target": "unknown"}
+}
+good_life_habits_students["phát"]["Hobby"] = "running"
+good_life_habits_students["Hậu"]["work out"] = "gym"
+del good_life_habits_students["phát"]["work out"]
+good_life_habits_students["Hải"] ={"work out" : "none", "age": 19, "target" :"bank employee"}
+del good_life_habits_students["Tâm"] #in order to execute, delete this bruh line
+print("Hải", good_life_habits_students["Hải"])
+good_life_habits_students["Minh"] = {"activities" : "bruh, who knows"}
+good_life_habits_students["Dung"] = {"job": "who bruh cares"}
+print("Dung:", good_life_habits_students["Dung"])
+print("Minh:", good_life_habits_students["Minh"])
+print("Tâm:", good_life_habits_students["Tâm"])
+print("Phát's target:", good_life_habits_students["phát"]['target'],
+      "\n,age:", good_life_habits_students["phát"]["age"])
+print("Hậu's age:", good_life_habits_students["Hậu"]["age"],
+      "\n,work out:", good_life_habits_students["Hậu"]["work out"])
