@@ -1,0 +1,10 @@
+life = {
+        "africa": {"situation": "hard", "condition": "hunger and thirst"},
+        "asia": {"situation": "medium", "condition": "enough food"},
+        "europe": {"situation": "easy", "condition": "fairly abundant"}
+        }
+life["africa"]["sleep time"] = "under 6 hours"
+print("situation:",life["asia"]["situation"],
+                 "\ncondition:", life["asia"]["condition"])
+del life["africa"]["situation"]
+print(life["africa"])
