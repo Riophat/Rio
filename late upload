@@ -1,0 +1,2 @@
+music = {"pop", "relax", "rock", "sans music", "nothing"}
+print(music) # this is executed with random order in music(store), and this work way faster than list in long code
