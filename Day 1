@@ -1,0 +1,5 @@
+import random
+love_choice = ["go on", "no more"]
+a = random.choice(love_choice)
+print (a)
+#first, this brings me a choice "go on", second, still "go on"
