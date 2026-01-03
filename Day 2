@@ -1,0 +1,8 @@
+Phat_emotions =("happy", "deep", "love", "passionated", "NIKA")
+for t in Phat_emotions:
+    print(t)
+print("--------------------")
+numbers = 1
+while numbers <= 5:
+    print(numbers)
+    numbers += 1
