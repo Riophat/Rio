@@ -1,0 +1,32 @@
+music = {"chara phase 1", "rendezvour", "Việt nam những chuyến đi", "finale", "story shift", "ink phase 3"}
+print(music) # set command is here
+print("------------------------------------------------", "next code.")
+for i in range(5):
+    print(i)
+print("gap here for next update")
+for t in range(10, 15):
+    print(t)
+print("gap here for next update")
+for a in range(0, 10, 2):
+    print(a)
+print("gap here for next update")
+for b in range(10, 0, -3):
+    print(b) # these are all range commands
+print("------------------------------------------------", "next code.")
+type_command = {"choose a number", 78, 7.8}
+print(type(type_command))# type command
+print("------------------------------------------------", "next code.")
+summer_destinations_choice ={
+    "Phát" : {"place": "cinema"}, 
+    "Bảo Nghi" :{"place": "similar to Phát, is cinema"},
+    "Sang" : {"place": "mountain"},
+    "Bon" : {"place": "beach"}
+}
+print("Phát's destination:" ,summer_destinations_choice.get("Phát", {}).get("place"))
+print("Bảo Nghi's destination:",summer_destinations_choice.get("Bảo Nghi", {}).get("place"))
+print("Bon's destination:", summer_destinations_choice.get("Bon", {}).get('place'))
+summer_destinations_choice.pop("Sang")
+print(summer_destinations_choice.get("Sang"))# dict command
+print("------------------------------------------------", "next code.")
+name = str(input("Enter your name"))
+print("your name is", name, ",and i love you")# input command
